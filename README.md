@@ -18,22 +18,22 @@ python -m venv env
 
 ### 3. Activating the virtual environment
 
-* **macOS/Linux:**
-
-```bash
-source .venv/bin/activate
-```
-
 * **Windows (CMD):**
 
 ```cmd
-.venv\Scripts\activate
+env\Scripts\activate
 ```
 
 * **Windows (PowerShell):**
 
 ```powershell
-.venv\Scripts\Activate.ps1
+env\Scripts\Activate.ps1
+```
+
+* **macOS/Linux:**
+
+```bash
+source env/bin/activate
 ```
 
 ### 4. Installing dependencies
